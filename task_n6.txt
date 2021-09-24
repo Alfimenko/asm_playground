@@ -1,0 +1,8 @@
+JMP start:
+DB 55
+DB 44
+start:
+MOV A, [1]
+MOV B, [2]
+MOV [1], B
+MOV [2], A
